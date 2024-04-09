@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW TAGS - HTML5</title>
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend>New Tag: </legend>
+            
+            <label for="name">Name: </label>
+            <input type="text" placeholder="name"  required />
+            <label for="number">Number: </label>
+            <input type="tel" id="number" 
+            pattern="[0-9]{3}-" required />
+
+            <button type="submit">Send tag</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Data Tag: </legend>
+
+            <input list="browsers" 
+                name="browser" 
+                id="browser" 
+            />
+            <datalist id="browsers">
+                <option value="Brave">
+                <option value="Chrome">
+                <option value="DuckDuckGo">
+            </datalist>
+
+            <input type="submit" />
+
+            <p>
+                <strong>Your brow fav is: 
+
+                </strong>
+            ...</p>
+        </fieldset>
+
+        <hr>
+
+        <div id="progress-bar">
+            <p>Nivel de Mbps de mi Router: </p>
+            <meter value="24" min="0" max="100">24 de 100</meter>
+        </div>
+
+        <hr>
+
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: aqua;">
+                <col style="background-color: lightblue;">
+            </colgroup>
+
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>F&F</td>
+                <td>Cars and Action movie</td>
+                <td>2001</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h3>figure and figcaption</h3>
+
+        <figure>
+            <img src="" alt="">
+
+            <figcaption>
+                Palermo - Italy. 2024
+            </figcaption>
+        </figure>
+
+        <h3>Mark element</h3>
+
+        <p>This is a normal pharagraph. But <mark>this not</mark>.</p>
+
+        <p>Normal size text</p> <p><small>Small size text</small></p>
+
+        <h3>Tachado and Underline text</h3>
+        <p>My fav movie or saga is not <del>Megalodon</del>, but 
+        <ins>F&F</ins> yeah.</p>
+
+    </div>
+</body>
+</html>
