@@ -1,0 +1,42 @@
+:root {
+    --color-fuente: blue;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 40px;
+    border: 4px solid black;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+/* filter, blur en px, opacity, contrast, brightness, invert, drop-shadow, hue-rotate en deg (para invertir o girar el color) */
+img {
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+
+img:hover {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    padding: 10px;
+}
+
+footer {
+    margin: 3rem;
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
